@@ -1,0 +1,155 @@
+.main {
+    background:  url(../images/Layer0.jpg);
+    background-size: cover;
+    padding: 50px 0 0 0;
+}
+
+.last{
+    
+    &__list {
+        display: flex;
+        flex-flow: row wrap;
+        flex: 1 0 25%;
+        margin-bottom: 50px;
+    }
+}
+
+.blog {
+
+    &__row {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        margin-bottom: 85px;
+    }
+    
+    &__list {
+        flex: 0 0 32%;
+
+
+    }
+    &__link {
+        margin: 0 0 19px 0;
+        padding-bottom: 28px;
+        background: #fff;
+        border: 1px solid #dddddd;
+        border-radius: 5px;
+
+    }
+    &__picture {
+        padding: 5px 5px 0 5px;
+        margin: 0 0 28px 0;
+    }
+
+    &__image {
+        border-radius: 2px;
+    }
+
+    &__text {
+        padding: 0 20px;
+        text-align: left;
+        font-family: "Open Sans" , sans-serif;
+    }
+
+    &__header {
+        margin: 0;
+        font-size: 0.95rem;
+        font-weight: 600;
+        color: #5e5e5e;
+
+        &::after {
+            content: '';
+            width: 30.54%;
+            height: 1px;
+            background: #d5d5d5;
+            display: flex;
+            margin-right: auto;
+            margin-top: 14px;
+            margin-bottom: 14px;
+        }
+    }
+
+    &__description {
+        font: 400 normal 0.8rem/1.2rem "Open Sans" , sans-serif;
+        color: #6d6d6d;
+    }
+
+    &__bottom {
+        width: 940px;
+        position: relative;
+        margin: auto;
+        padding: 25px 30px 26px 30px;
+        background: #fff;
+        text-align: left;
+        border-radius: 5px 5px 5px 0;
+        border: 1px solid #dddddd;
+
+        &:after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 0;
+            border-top: 100px solid #fff; 
+            border-right: 100px solid transparent;
+            left: 0px;
+            top: 85px;
+        }
+    }
+
+    &__quote {
+        margin: 0 0 0;
+        width: 84%;
+        font: 400 italic 0.785rem "Open Sans" , sans-serif;
+        color: #6d6d6d;
+        word-spacing: 3px;
+
+        &::after {
+            content: 'by Esmet Hajrizi';
+            text-align: right;
+            display: block;
+            position: absolute;
+            bottom: 15px;
+            right: 35px;
+            color: #f97373;
+
+        }
+    }
+}
+
+.button__arrow--left {
+    display: block;
+    position: absolute;
+    width: 39px;
+    height: 42px;
+    background: #ff5656;
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 2px;
+    border-bottom: 1px solid #f1f1f1;
+    top: 0;
+    right: -39px;
+    
+    &:hover {
+        font-size: 2rem;
+    }
+}
+
+.button__arrow--right{
+    display: block;
+    position: absolute;
+    width: 39px;
+    height: 42px;
+    background: #333131;
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 2px;
+    bottom: 0;
+    right: -39px;
+
+    &:hover {
+        font-size: 2rem;
+    }
+}
+
+
+
