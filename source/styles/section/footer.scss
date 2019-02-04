@@ -1,0 +1,119 @@
+.footer {
+
+    &__main {
+        background: url(../images/footer.jpg);
+        padding: 90px 0 50px 0;
+        border-bottom: 1px solid #0d0d0d;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    &__link {
+        flex: 0 0 25.745%;
+        text-align: left;
+        display: flex;
+        flex-flow: column wrap;
+        font: 400 normal 0.75rem "Open Sans" , sans-serif;
+        color: #474747;
+    }
+
+    &__title {
+        font: 400 normal 0.9rem "Open Sans" , sans-serif;
+        color: #828282;
+        margin: 0 0 15px 0;
+        text-transform: uppercase;
+    }
+
+    &__comment {
+        margin: 0 0 3px 0;
+    }
+
+    &__links {
+        color: #5c5c5c;
+        text-decoration: none;
+    }
+
+    &__data--information:not(:last of type){
+        font-size: 0.73rem;
+        font-style: italic;
+        color: #3b3b3b;
+        margin: 0 0 17px 0;
+    }
+
+    &__mail {
+        margin: 0 0 3px 0;
+    
+        &:before {
+            content: "@envanto";
+            color: #5c5c5c;
+        }
+    }
+
+    &__text {
+        margin: 0 0 20px 0;
+    }
+
+    &__social {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    &__icon {
+        flex: 0 0 26px;
+        height: 26px;
+        margin: 0 8px 0 0;
+        background: #565656;
+        border-radius: 50%;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: #201f20;
+
+        &:hover {
+            background: #c6c6c6;
+        }
+    }
+
+    &__copyright {
+        padding: 13px 0;
+        background: #131313;
+        border-top: 1px solid #1c1c1c;
+        border-bottom: 1px solid #0d0d0d;
+    }
+
+    &__information {
+        font: 400 normal 0.75rem "Open Sans" , sans-serif;
+        color: #424242;
+    }
+
+    &__button {
+        width: 44px;
+        height: 44px;
+        background: #1e1d1e;
+        color: #656565;
+        border-radius: 4px;
+        border: 1px solid #515151;
+
+    }
+    &__wraper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+.fa-basketball-ball {
+    background: #201f20;
+    color: #565656;
+    border-radius: 50%;
+    border: 1px solid #201f20;
+    
+    &:hover {
+        color: #c6c6c6;
+    }
+}

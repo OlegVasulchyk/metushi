@@ -84,13 +84,24 @@
         border-radius: 5px 5px 5px 0;
         border: 1px solid #dddddd;
 
+
+        &:before {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 0;
+            border-top: 57px solid #dddddd; 
+            border-right: 57px solid transparent;
+            left: -1px;
+            top: 86px;
+        }
         &:after {
             content: '';
             position: absolute;
             width: 0;
             height: 0;
-            border-top: 100px solid #fff; 
-            border-right: 100px solid transparent;
+            border-top: 56px solid #fff; 
+            border-right: 56px solid transparent;
             left: 0px;
             top: 85px;
         }
@@ -111,6 +122,8 @@
             bottom: 15px;
             right: 35px;
             color: #f97373;
+        }
+        &:before {
 
         }
     }
